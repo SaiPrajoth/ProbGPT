@@ -9,7 +9,7 @@ The model is based on **N-Gram Language Modeling**, where:
 - The probability of the next word is computed using **conditional probability**:
 
 \[
-P(w_{N+1} | w_1, w_2, ..., w_N) = \frac{C(w_1, w_2, ..., w_{N+1})}{C(w_1, w_2, ..., w_N)}
+$P(w_{N+1} | w_1, w_2, ..., w_N) = \frac{C(w_1, w_2, ..., w_{N+1})}{C(w_1, w_2, ..., w_N)}$
 \]
 
 where:
