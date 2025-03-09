@@ -8,9 +8,9 @@ The model is based on **N-Gram Language Modeling**, where:
 - An **N-gram** is a sequence of **N words** appearing consecutively in a given corpus.
 - The probability of the next word is computed using **conditional probability**:
 
-\[
+\
 $P(w_{N+1} | w_1, w_2, ..., w_N) = \frac{C(w_1, w_2, ..., w_{N+1})}{C(w_1, w_2, ..., w_N)}$
-\]
+\
 
 where:
 - \( C(w_1, w_2, ..., w_N) \) is the count of the **N-gram** in the dataset.
